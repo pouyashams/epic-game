@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+
+.first {
+    height: 10px;
+    min-height: 450px;
+    background-size: cover;
+    background-image: url('../images/header-image.jpg');
+
+}
+
+.background-edit {
+    border-radius: 20px;
+    width: 85%;
+}.radius {
+    border-radius: 20px;
+}
+
+.background-navbar {
+
+    background: -webkit-linear-gradient(to left, #333333,#555555); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #333333,#555555); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*width: 85%;*/
+}
+
+.affix {
+    background-color: #eee;
+    -webkit-transition: padding 0.2s ease-out;
+    -moz-transition: padding 0.2s ease-out;
+    -o-transition: padding 0.2s ease-out;
+    transition: padding 0.2s ease-out;
+}
+
+@media (min-width: 768px) {
+    .affix-top {
+        /* navbar style at top */
+        background-color: transparent;
+        border-color: transparent;
+        padding: 15px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+}
+
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+    color: #000;
+}
+.blur {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.color-nav {
+
+    background: -webkit-linear-gradient(to right, #333333, #33300c);
+    background: linear-gradient(to right, #333333, #333333)
+}
+
+
+
+
+
+
+
+
